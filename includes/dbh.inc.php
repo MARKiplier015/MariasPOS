@@ -1,5 +1,5 @@
 <?php 
-$host = 'railway';
+$host = 'mysql.railway.internal';
 $dbname = 'mariaspostest'; // Ensure this is the correct database name
 $dbusername = 'root';
 $dbpassword = 'sBvjmATcWGBafojZaynYnauJPFWcAUYK';
