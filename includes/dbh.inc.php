@@ -1,9 +1,9 @@
 <?php 
-$host = 'mysql.railway.internal';
-$dbname = 'mariaspostest'; // Ensure this is the correct database name
+$host = 'nozomi.proxy.rlwy.net';
+$dbname = 'railway'; // Ensure this is the correct database name
 $dbusername = 'root';
 $dbpassword = 'sBvjmATcWGBafojZaynYnauJPFWcAUYK';
-$port = "3306"; 
+$port = "28095"; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $dbusername, $dbpassword);
