@@ -1,4 +1,7 @@
 [phases.setup]
+nixPkgs = ["phpPackages.pdo_mysql"]
+
+[phases.setup]
 nixPkgs = ["php", "phpPackages.pdo_mysql"]
 
 [phases.install]
